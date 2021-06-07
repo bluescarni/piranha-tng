@@ -204,6 +204,7 @@ set(OBAKE_SRC_FILES
     "${CMAKE_CURRENT_SOURCE_DIR}/src/kpack.cpp"
     "${CMAKE_CURRENT_SOURCE_DIR}/src/polynomials/packed_monomial.cpp"
     "${CMAKE_CURRENT_SOURCE_DIR}/src/polynomials/d_packed_monomial.cpp"
+    "${CMAKE_CURRENT_SOURCE_DIR}/src/poisson_series/d_packed_trig_monomial.cpp"
 )
 
 if(OBAKE_WITH_LIBBACKTRACE)
